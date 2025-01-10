@@ -134,10 +134,8 @@ main section{
     display: flex;
     justify-content: space-around;
 }
-/* skills section */
-/* .skill{
-    display: flex;
-} */
+
+/* Skills section style */
 .skills-container{
     display: flex;
     gap: 24px;
@@ -149,5 +147,44 @@ main section{
     /* 0px-X axis,6-Y axis,50px-blur,0px-spread,color hex/css/or etc */
 }
 
+/* Resume section styles */
 
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin: 50px;
+    padding: 20px;
+
+}
+.resume-column-tittle{
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+}
+.experience-tittle{
+    font-weight: bold;
+    color: #474747;
+    font-style: 25px;
+}
+
+/* footer styles */
+footer{
+    display: flex;
+    padding: 130px 220px;
+    gap: 100px;
+    
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 54px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+}
 
